@@ -57,6 +57,10 @@ public final class ItemTestParams implements ArgumentsProvider {
                 new Item("Sulfuras, Hand of Ragnaros", 0, 80),
                 new Item("Sulfuras, Hand of Ragnaros", 0, 80)
             ),
+            Arguments.of(
+                new Item("Sulfuras, Hand of Ragnaros", 0, 50),
+                new Item("Sulfuras, Hand of Ragnaros", 0, 80)
+            ),
             // Test cases for backstage passes
             Arguments.of(
                 new Item("Backstage passes to a TAFKAL80ETC concert", 0, 50),
